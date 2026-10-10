@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://COMIC.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://Button.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="Environment" id=3]
+background_mode = 3
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 157.191
+margin_top = 377.55
+margin_right = 458.191
+margin_bottom = 426.55
+theme = SubResource( 2 )
+text = "Proceed..."
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 3 )
+
+[node name="Camera" type="Camera" parent="."]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 63.6502
+margin_top = 82.0552
+margin_right = 749.65
+margin_bottom = 444.055
+rect_scale = Vector2( 0.7, 0.7 )
+theme = SubResource( 2 )
+text = "Hi There! This is 
+The Creator Speaking...
+
+Please Note that this is still unfinished and
+all,and just note it might be its own thing 
+soon,and things here are subject to change.
+Again,this is unfinished,so don't judge me please."
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_Button_pressed"]

@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://360_F_169064414_Oqx9Jkg5kCe7XzpGWYVA9RBwfRkbWTIl.jpg" type="Texture" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 1 )
+uv1_triplanar = true
+
+[node name="Spatial" type="CSGCombiner"]
+use_collision = true
+
+[node name="CSGCylinder" type="CSGCylinder" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.1, 0, 0, 0, 1, 0, 0, 0 )
+sides = 64
+material = SubResource( 1 )
+
+[node name="CSGCylinder3" type="CSGCylinder" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
+radius = 0.3
+sides = 64
+material = SubResource( 1 )
+
+[node name="CSGCylinder2" type="CSGCylinder" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.1, 0, 0, 0, 1, 0, 1, 0 )
+sides = 64
+material = SubResource( 1 )

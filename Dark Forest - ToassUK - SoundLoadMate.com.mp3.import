@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Dark Forest - ToassUK - SoundLoadMate.com.mp3-dad46f6c9bb6255e7a1201128498f74d.mp3str"
+
+[deps]
+
+source_file="res://Dark Forest - ToassUK - SoundLoadMate.com.mp3"
+dest_files=[ "res://.import/Dark Forest - ToassUK - SoundLoadMate.com.mp3-dad46f6c9bb6255e7a1201128498f74d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

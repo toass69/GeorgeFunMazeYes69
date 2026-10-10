@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Corruptus_Scream.ogg-da950d51fef5e53e1f74e1e838402266.oggstr"
+
+[deps]
+
+source_file="res://Corruptus_Scream.ogg"
+dest_files=[ "res://.import/Corruptus_Scream.ogg-da950d51fef5e53e1f74e1e838402266.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

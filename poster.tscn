@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://secret_poser_nana.png" type="Texture" id=1]
+
+[sub_resource type="ImageTexture" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0 )
+albedo_texture = SubResource( 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_texture = ExtResource( 1 )
+uv1_triplanar = true
+
+[node name="CSGCombiner" type="CSGCombiner"]
+use_collision = true
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+width = 10.0
+height = 4.0
+depth = 10.0
+material = SubResource( 2 )
+
+[node name="CSGBox2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+operation = 2
+width = 9.0
+height = 3.5
+depth = 9.0
+material = SubResource( 3 )
+
+[node name="CSGBox3" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, 0 )
+width = 0.5
+height = 3.5
+depth = 4.0
+material = SubResource( 3 )
+
+[node name="CSGBox4" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 0 )
+width = 0.5
+height = 3.5
+depth = 4.0
+material = SubResource( 3 )
