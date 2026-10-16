@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Funk_Visitor_Inst.mp3.mpeg.ogg-58f5814b2c28e539764943677367bca8.oggstr"
+
+[deps]
+
+source_file="res://Funk_Visitor_Inst.mp3.mpeg.ogg"
+dest_files=[ "res://.import/Funk_Visitor_Inst.mp3.mpeg.ogg-58f5814b2c28e539764943677367bca8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

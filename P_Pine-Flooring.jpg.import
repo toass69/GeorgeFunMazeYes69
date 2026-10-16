@@ -2,30 +2,28 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.s3tc.stex"
-path.etc2="res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.etc2.stex"
+path="res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://P_Pine-Flooring.jpg"
-dest_files=[ "res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.s3tc.stex", "res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.etc2.stex" ]
+dest_files=[ "res://.import/P_Pine-Flooring.jpg-7f475f9aefb18ece78d43da7b63ba9e3.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
-flags/filter=true
-flags/mipmaps=true
+flags/repeat=1
+flags/filter=false
+flags/mipmaps=false
 flags/anisotropic=false
-flags/srgb=2
+flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false

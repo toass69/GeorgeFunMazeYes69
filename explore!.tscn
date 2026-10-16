@@ -43,6 +43,14 @@ unit_size = 0.1
 autoplay = true
 max_distance = 50.0
 
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0.335861, 15 )
+use_collision = true
+width = 6.0
+height = 0.884769
+depth = 4.0
+material = SubResource( 3 )
+
 [node name="desks" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0 )
 
@@ -51,6 +59,30 @@ transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 20, 0.2
 
 [node name="desk2" parent="desks" instance=ExtResource( 7 )]
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 24, 0.25, -6 )
+
+[node name="desk11" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -34, 0.25, -20 )
+
+[node name="desk12" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -30, 0.25, -15 )
+
+[node name="desk13" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -35, 0.25, -16 )
+
+[node name="desk14" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -34, 0.25, -13 )
+
+[node name="desk15" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -34, 0.25, -8 )
+
+[node name="desk16" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -6, 0.25, -6 )
+
+[node name="desk17" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6, 0.25, -14 )
+
+[node name="desk18" parent="desks" instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 37, 0.25, -18 )
 
 [node name="desk3" parent="desks" instance=ExtResource( 7 )]
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 24, 0.25, 6 )
@@ -75,11 +107,3 @@ transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 35, 0.2
 
 [node name="desk8" parent="desks" instance=ExtResource( 7 )]
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 30, 0.25, 2 )
-
-[node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0.335861, 15 )
-use_collision = true
-width = 6.0
-height = 0.884769
-depth = 4.0
-material = SubResource( 3 )

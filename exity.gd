@@ -10,5 +10,5 @@ func spawn_exit():
 	var exit = exit_scene.instance()
 	add_child(exit)
 
-	exit.translation = Vector3(36.845, 1.64, -22.655) # Change spawn position!
+	exit.translation = Vector3(-37, 1.25, 0) # Change spawn position!
 	exit_spawned = true

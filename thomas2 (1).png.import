@@ -2,30 +2,28 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.s3tc.stex"
-path.etc2="res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.etc2.stex"
+path="res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://thomas2 (1).png"
-dest_files=[ "res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.s3tc.stex", "res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.etc2.stex" ]
+dest_files=[ "res://.import/thomas2 (1).png-5341b026557807dd7af0bd3ce2f0bc1a.stex" ]
 
 [params]
 
-compress/mode=2
-compress/lossy_quality=1.0
+compress/mode=0
+compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
-flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=true
-flags/srgb=2
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false

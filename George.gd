@@ -1,4 +1,4 @@
-extends Sprite3D
+extends AnimatedSprite3D
 
 
 # Declare member variables here. Examples:
@@ -8,6 +8,7 @@ extends Sprite3D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	play("default")
 	pass # Replace with function body.
 
 

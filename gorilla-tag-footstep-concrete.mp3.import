@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gorilla-tag-footstep-concrete.mp3-e01faeb6a508d51fe01182e4e4a29e3e.mp3str"
+
+[deps]
+
+source_file="res://gorilla-tag-footstep-concrete.mp3"
+dest_files=[ "res://.import/gorilla-tag-footstep-concrete.mp3-e01faeb6a508d51fe01182e4e4a29e3e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
