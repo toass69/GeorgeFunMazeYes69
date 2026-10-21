@@ -3,7 +3,8 @@
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://test.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Mr.Guitar.png" type="Texture" id=3]
-[ext_resource path="res://thomas2 (1).png" type="Texture" id=4]
+[ext_resource path="res://thomas.tscn" type="PackedScene" id=4]
+[ext_resource path="res://TREVOR SCREAM.tscn" type="PackedScene" id=5]
 [ext_resource path="res://DaySkyHDRI070B_1K_TONEMAPPED.jpg" type="Texture" id=6]
 [ext_resource path="res://georgeenemyai.tscn" type="PackedScene" id=7]
 [ext_resource path="res://book.tscn" type="PackedScene" id=8]
@@ -16,7 +17,6 @@
 [ext_resource path="res://desk.tscn" type="PackedScene" id=15]
 [ext_resource path="res://tiledbackground2.jpg" type="Texture" id=16]
 [ext_resource path="res://ssssss.tscn" type="PackedScene" id=17]
-[ext_resource path="res://trevor 2.png" type="Texture" id=18]
 [ext_resource path="res://this is a gang (1).png" type="Texture" id=19]
 [ext_resource path="res://rhubarb wanted.png" type="Texture" id=20]
 [ext_resource path="res://sanic_ball.png" type="Texture" id=21]
@@ -176,12 +176,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1 )
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 2 )
 
-[node name="Thomas" type="Sprite3D" parent="."]
-transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, -8, 1.2, -11 )
-billboard = 2
-alpha_cut = 2
-texture = ExtResource( 4 )
-
 [node name="George" type="AnimatedSprite3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.934, 2.496, 0.187 )
 billboard = 2
@@ -320,11 +314,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 1.82402, -1 )
 billboard = 2
 texture = ExtResource( 19 )
 
-[node name="Sprite3D2" type="Sprite3D" parent="."]
-transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 24.8915, 1.36652, -1.1296 )
-billboard = 2
-texture = ExtResource( 18 )
-
 [node name="Sprite3D4" type="Sprite3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 2, -15.99 )
 texture = ExtResource( 21 )
@@ -358,3 +347,9 @@ texture = ExtResource( 26 )
 [node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 )
 navmesh = SubResource( 8 )
+
+[node name="Trevor" parent="." instance=ExtResource( 5 )]
+transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 34, 1.37809, -21 )
+
+[node name="KinematicBody" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.2, -11 )

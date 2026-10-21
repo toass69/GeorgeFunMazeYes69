@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/what the hell!.ogg-e1bdb700a9af49c9f10cac9727bbd4bc.oggstr"
+
+[deps]
+
+source_file="res://what the hell!.ogg"
+dest_files=[ "res://.import/what the hell!.ogg-e1bdb700a9af49c9f10cac9727bbd4bc.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

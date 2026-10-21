@@ -87,7 +87,7 @@ autoplay = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.215, 0 )
 billboard = 2
 frames = SubResource( 3 )
-frame = 13
+frame = 9
 playing = true
 
 [connection signal="body_entered" from="HitArea" to="." method="_on_HitArea_body_entered"]

@@ -9,9 +9,12 @@ extends Node2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print("{hour}:{second}".format(OS.get_datetime()))
-	yield(wait(5), "completed")
+	yield(wait(10.60), "completed")
 	get_tree().quit() # default behavior
 	print("{hour}:{second}".format(OS.get_datetime()))
+
+	if OS.has_feature("JavaScript"):
+		get_tree().change_scene("res://menu.tscn")
 
 func wait(seconds):
 	yield(get_tree().create_timer(seconds), "timeout")

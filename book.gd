@@ -28,6 +28,9 @@ func _on_StaticBody_body_entered(body):
 		# Remove the books
 		
 
+	if body.books_collected == 4:
+		get_node("/root/Spatial/Trevor").activate_enemy()
+
 	if body.books_collected == 7:
 		var world_env = get_node("/root/Spatial/WorldEnvironment")
 		var exit = get_node_or_null("/root/Spatial")

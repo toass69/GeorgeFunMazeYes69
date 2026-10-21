@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/SHIFTER.wav-86efbc71f89fb7a37734c5346e6dc629.sample"
+
+[deps]
+
+source_file="res://SHIFTER.wav"
+dest_files=[ "res://.import/SHIFTER.wav-86efbc71f89fb7a37734c5346e6dc629.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
